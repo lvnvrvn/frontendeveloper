@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: #1c1d25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .intro__title {
+    animation: letters .5s linear;
+} */
+
+@keyframes letters1 {
+    0% {
+        /* background: #fff; */
+        /* transform: scale(.5);
+        transform: scale(-1, 1) */
+    }
+    50% {
+        /* transform: scale(1, 1); */
+        /* background: transparent; */
+    }
+    75% {
+        /* transform: scale(.8); */
+        /* transform: scale(-1, 1); */
+        /* background: #fff; */
+    }
+    /* 100% { */
+        /* background: transparent; */
+        /* transform: scale(1, 1); */
+    /* } */
+}
+
+@keyframes letters {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: #fff;
+    }
+}
+
+.intro__title span {
+    color: transparent;
+}
+
+.intro__title span:first-child {
+    animation: letters .5s linear;
+    animation-delay: .1s;
+}
+
+.intro__title span:nth-child(2) {
+    animation: letters .5s linear;
+    animation-delay: .15s;
+}
+
+.intro__title span:nth-child(3) {
+    animation: letters .5s linear;
+    animation-delay: .20s;
+}
+
+.intro__title span:nth-child(4) {
+    animation: letters .5s linear;
+    animation-delay: .25s;
+}
+
+.intro__title span:nth-child(5) {
+    animation: letters .5s linear;
+    animation-delay: .30s;
+}
+
+.intro__title span:nth-child(6) {
+    animation: letters .5s linear;
+    animation-delay: .35s;
+}
+
+.intro__title span:nth-child(7) {
+    animation: letters .5s linear;
+    animation-delay: .40s;
+}
+
+.intro__title span:nth-child(8) {
+    animation: letters .5s linear;
+    animation-delay: .45s;
+}
+
+.intro__title span:nth-child(9) {
+    animation: letters .5s linear;
+    animation-delay: .50s;
+}
+
+.intro__title span:nth-child(10) {
+    animation: letters .5s linear;
+    animation-delay: .55s;
+}
+
+.intro__title span:nth-child(11) {
+    animation: letters .5s linear;
+    animation-delay: .60s;
+}
+
+.intro__title span:nth-child(12) {
+    animation: letters .5s linear;
+    animation-delay: .656s;
+}
+
+.intro__title span:nth-child(13) {
+    animation: letters .5s linear;
+    animation-delay: .70s;
+}
+
+.intro__title span:nth-child(14) {
+    animation: letters .5s linear;
+    animation-delay: .75s;
+}
+
+.intro__title span:nth-child(15) {
+    animation: letters .5s linear;
+    animation-delay: .80s;
+}
+
+.intro__title span:nth-child(16) {
+    animation: letters .5s linear;
+    animation-delay: .85s;
+}
+
+.intro__title span:nth-child(17) {
+    animation: letters .5s linear;
+    animation-delay: .90s;
+}
+
+.intro__title span:nth-child(18) {
+    animation: letters .5s linear;
+    animation-delay: .95s;
+}
+
+.intro__title span:last-child {
+    animation: letters .5s linear;
+    animation-delay: .01s;
+}
